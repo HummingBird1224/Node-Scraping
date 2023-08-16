@@ -1,0 +1,57 @@
+{
+  "name": "nodejs-express-sequelise-mysql",
+  "version": "1.0.0",
+  "description": "Node.js Rest Apis with Express, Sequelize & MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "server": "pm2 start server.js --node-args=\"--experimental-loader newrelic/esm-loader.mjs --max-old-space-size=2048\"",
+    "p": "pm2 start server.js",
+    "die": "pm2 delete server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "2captcha": "^3.0.7",
+    "amazon-paapi": "^1.0.6",
+    "amazon-sp-api": "^0.7.10",
+    "apac": "^3.0.2",
+    "async": "^3.2.4",
+    "axios": "^0.27.2",
+    "axis": "^1.0.0",
+    "babel-runtime": "^6.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "files-download-zip": "^3.1.1",
+    "image-downloader": "^4.3.0",
+    "make-dir": "^3.1.0",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "node-zip": "^1.1.1",
+    "paapi5-nodejs-sdk": "^1.1.0",
+    "puppeteer": "^20.7.4",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "request": "^2.88.2",
+    "save": "^2.5.0",
+    "sequelize": "^6.21.0",
+    "shelljs": "^0.8.5",
+    "xml2js": "^0.4.23",
+    "zenrows": "^1.3.1",
+    "zip-downloader": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "npm-pack-zip": "^1.3.0"
+  }
+}
