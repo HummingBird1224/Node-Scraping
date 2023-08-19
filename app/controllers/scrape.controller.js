@@ -14,12 +14,12 @@ const baseUrl = "https://www.biccamera.com/bc/category/001/";
 // const serverUrl = "http://127.0.0.1:8000/api/v1";
 const serverUrl = "https://zzkk28.com/api/v1";
 
-const pool = mysql.createPool({
-	host: 'localhost',
-	user: 'root',
-	password: '',
-	database: 'bigcamera'
-});
+// const pool = mysql.createPool({
+// 	host: 'localhost',
+// 	user: 'root',
+// 	password: '',
+// 	database: 'bigcamera'
+// });
 
 class GetItemInfo {
 	constructor() {
